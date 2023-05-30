@@ -480,6 +480,7 @@ ol {
 
 .social-list-link {
     color: var(--border-client);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -603,6 +604,7 @@ ol {
 
 .social-list-link-footer {
     color: var(--hero-color-font);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link-footer:hover,
