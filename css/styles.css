@@ -192,6 +192,39 @@ ol {
     margin-bottom: 0;
 }
 
+/* ==== Початок написів в секції "Чим ми займаємось" ==== */
+.buzy-thumb {
+    position: relative;
+}
+.buzy-thumb::after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 368px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    
+    z-index: 1;
+}
+.buzy-text {
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--hero-color-font);    
+    z-index: 2;
+}
+/* ==== Кінець написів ==== */
+
+
 .team-flex {
     display: flex;
     flex-wrap: wrap;
