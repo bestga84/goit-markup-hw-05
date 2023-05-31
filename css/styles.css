@@ -323,14 +323,13 @@ ol {
 
     background: #2196F3;
     border-radius: 2px;
-
-    transform: scaleX(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transform: scaleX(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.menu-link:hover::after,
+/* .menu-link:hover::after,
 .menu-link:focus::after {
     transform: scaleX(1);
-}
+} */
 
 .logo,
 .logo-part {
@@ -658,7 +657,7 @@ ol {
 
 .social-list-link-footer {
     color: var(--hero-color-font);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link-footer:hover,
@@ -742,6 +741,8 @@ ol {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn:hover,
@@ -780,6 +781,8 @@ ol {
 
 .portfolio-hover {
     display: block;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-hover:hover,
 .portfolio-hover:focus {
